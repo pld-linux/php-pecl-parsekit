@@ -2,15 +2,15 @@
 %define		_status		alpha
 
 Summary:	%{_modname} - PHP Opcode Analyser
-#Summary(pl):	%{_modname} -
+Summary(pl):	%{_modname} - Analizator instrukcji PHP
 Name:		php-pecl-%{_modname}
 Version:	0.2
 Release:	1
-License:	PHP 2.02
+License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	e68ee53592e89bdf1fcfad42a1ee1431
-URL:		http://pecl.php.net/package/Modname/
+URL:		http://pecl.php.net/package/parsekit/
 BuildRequires:	libtool
 BuildRequires:	php-devel
 Requires:	php-common
@@ -30,6 +30,13 @@ contains some code which is potentially non-threadsafe.
 In PECL status of this extension is: %{_status}.
 
 %description -l pl
+Dostarcza dzia³aj±cego w przestrzeni u¿ytkownika interpretatora
+instrukcji wygnerowanych przez kompilator silnika Zend wbudowany w
+PHP.
+
+To rozszerzenie przeznaczone jest do rozwoju oraz w celu wyszukiwania
+b³êdów. Zawiera kod który potecjalnie nie jest bezpieczny dla
+aplikacji wielow±tkowych.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
