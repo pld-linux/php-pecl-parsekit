@@ -30,12 +30,12 @@ contains some code which is potentially non-threadsafe.
 In PECL status of this extension is: %{_status}.
 
 %description -l pl
-Dostarcza dzia³aj±cego w przestrzeni u¿ytkownika interpretatora
-instrukcji wygnerowanych przez kompilator silnika Zend wbudowany w
+Dostarcza dzia³aj±cego w przestrzeni u¿ytkownika interpretera
+instrukcji wygenerowanych przez kompilator silnika Zend wbudowany w
 PHP.
 
 To rozszerzenie przeznaczone jest do rozwoju oraz w celu wyszukiwania
-b³êdów. Zawiera kod który potecjalnie nie jest bezpieczny dla
+b³êdów. Zawiera kod, który potencjalnie nie jest bezpieczny dla
 aplikacji wielow±tkowych.
 
 To rozszerzenie ma w PECL status: %{_status}.
