@@ -11,7 +11,6 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	9a219eec9c4b9b10cbd06570f83fc52c
 URL:		http://pecl.php.net/package/parsekit/
-BuildRequires:	libtool
 BuildRequires:	php-devel
 Requires:	php-common
 Obsoletes:	php-pear-%{_modname}
