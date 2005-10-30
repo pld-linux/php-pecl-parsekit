@@ -6,7 +6,7 @@ Summary:	%{_modname} - PHP Opcode Analyser
 Summary(pl):	%{_modname} - Analizator instrukcji PHP
 Name:		php-pecl-%{_modname}
 Version:	1.0
-Release:	3
+Release:	4
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
