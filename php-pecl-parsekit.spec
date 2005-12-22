@@ -6,11 +6,12 @@ Summary:	%{_modname} - PHP Opcode Analyser
 Summary(pl):	%{_modname} - Analizator instrukcji PHP
 Name:		php-pecl-%{_modname}
 Version:	1.0
-Release:	5
+Release:	6
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	9a219eec9c4b9b10cbd06570f83fc52c
+Patch0:		%{name}-php51.patch
 URL:		http://pecl.php.net/package/parsekit/
 BuildRequires:	php-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.254
@@ -41,6 +42,7 @@ To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c
+%patch0 -p1
 
 %build
 cd %{_modname}-%{version}
