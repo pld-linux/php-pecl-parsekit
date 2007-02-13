@@ -1,7 +1,7 @@
 %define		_modname	parsekit
 %define		_status		stable
 Summary:	%{_modname} - PHP Opcode Analyser
-Summary(pl.UTF-8):   %{_modname} - Analizator instrukcji PHP
+Summary(pl.UTF-8):	%{_modname} - Analizator instrukcji PHP
 Name:		php-pecl-%{_modname}
 Version:	1.2
 Release:	2
