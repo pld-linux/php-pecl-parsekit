@@ -3,12 +3,12 @@
 Summary:	%{_modname} - PHP Opcode Analyser
 Summary(pl.UTF-8):	%{_modname} - Analizator instrukcji PHP
 Name:		php-pecl-%{_modname}
-Version:	1.2
-Release:	2
+Version:	1.3.0
+Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	ec6a6641ec50532538656340731421c4
+# Source0-md5:	6045927d06da9f5b8852d220142018bc
 URL:		http://pecl.php.net/package/parsekit/
 BuildRequires:	php-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.344
